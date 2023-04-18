@@ -14,10 +14,12 @@ body {
   position: absolute;
   
 
-  width: 300px;
+  width: 350px;
   height: 500px;
-  background: gray;
-
+  background: url(game01ME4.png);
+  background-size: 350px 500px;
+  object-fit: cover;
+ 
  
 } 
 #ench {
