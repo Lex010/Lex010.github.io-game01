@@ -22,6 +22,10 @@ body {
  
  
 } 
+.name{
+  font-size: 25px;
+  font-family: 700px;
+}
 #ench {
   position: absolute;
   top: 65%;
