@@ -7,11 +7,12 @@ body {
   
 }
 .items {
- display: flex;
- justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 #weap_img {
-  position: absolute;
   
 
   width: 350px;
@@ -27,9 +28,7 @@ body {
   font-family: 700px;
 }
 #ench {
-  position: absolute;
-  top: 65%;
-  left: 45%;
+  cursor: pointer;
 
   background: black;
   color: bisque;
@@ -39,6 +38,24 @@ body {
   height: 50px;
 
   display: inline-block;
- 
+}
 
+#restart {
+  display: none;
+
+  position: absolute;
+  margin-top: 20%;
+
+  border: none;
+  cursor: pointer;
+
+  width: 200px;
+  height: 500px;
+
+  text-align: center;
+  font-size: 40px;
+  text-shadow: #333 5px 5px 10px;
+  font-weight: bold;
+  color: #333;
+  background-color: rgba(0, 255, 0, 0);
 }
