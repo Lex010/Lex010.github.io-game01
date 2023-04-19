@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Предварительная загрузка нужных картинок
     preloadImages(
-        "sw_broken.png","sw0.png", "sw1.png", "sw2.png", "sw3.png", "sw4.png", "sw5.png", "sw6.png", "sw7.png", "sw8.png", "sw9.png",
-        "sw10.png", "sw11.png", "sw12.png", "sw13.png", "sw14.png", "sw15.png", "sw16.png", "sw0.png", "sw17.png"
+        "sword/sw_broken.png","sword/sw0.png", "sword/sw1.png", "sword/sw2.png", "sword/sw3.png", "sword/sw4.png", "sword/sw5.png", "sword/sw6.png", "sword/sw7.png",
+         "sword/sw8.png", "sword/sw9.png", "sword/sw10.png", "sword/sw11.png", "sword/sw12.png", "sword/sw13.png", "sword/sw14.png", "sword/sw15.png", "sword/sw16.png",
+          "sword/sw0.png", "sword/sw17.png"
     );
 });
