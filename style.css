@@ -10,19 +10,19 @@ body {
  display: flex;
  justify-content: space-around;
 }
-.weap_img {
+#weap_img {
   position: absolute;
   
 
   width: 350px;
   height: 500px;
-  background: url(game01ME4.png);
+  background: url(sword/sw0.png);
   background-size: 350px 500px;
   object-fit: cover;
  
  
 } 
-.name{
+#name{
   font-size: 25px;
   font-family: 700px;
 }
