@@ -34,8 +34,8 @@ body {
   margin: auto;
 }
 .for_sr_im {
-  height: 50px;
-  width: 50px;                        /*иконки ресурсов*/
+  height: 35px;
+  width: 35px;                        /*иконки ресурсов*/
   background-color: bisque;
 }
 .count_rs {
