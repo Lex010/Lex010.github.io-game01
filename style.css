@@ -1,4 +1,6 @@
-
+body {
+  margin: 0;
+}
 
 .head {
  height: 100px;
@@ -45,7 +47,7 @@
 }
 .items {                               /*страница с улучшением меча*/
   position: absolute;
-  margin-top: 90px;
+  margin-top: 98px;
 
   background: url(bg.jpg) ;   
   background-size: cover;
