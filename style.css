@@ -24,7 +24,7 @@ body {
  .iron, .gold, .wood {
    color: bisque;
 
-          text-shadow: 1px 0 1px #000, /*контур буквы*/
+          text-shadow: 1px 0 1px #000, /*контур цифры ресурсов*/
           0 1px 1px #000, 
           -1px 0 1px #000, 
           0 -1px 1px #000;
@@ -35,8 +35,15 @@ body {
 }
 .for_sr_im {
   height: 35px;
-  width: 35px;                        /*иконки ресурсов*/
+  width: 35px;                        /*иконки ресурсов ДЕРЕВА И ЖЕЛЕЗА*/
   background-color: bisque;
+  border-radius: 3px;
+}
+.for_sr_im_gold {
+  height: 35px;
+  width: 35px;                        /*иконки ресурсов ЗОЛОТА*/
+  background: linear-gradient(rgb(147, 226, 171), orange);
+  border-radius: 30px;
 }
 .count_rs {
   position: relative;
@@ -66,6 +73,8 @@ body {
 #ench {                          /*кнопка улучшения*/
   cursor: pointer;
 
+  border-radius: 10% 40% 30% 10%;
+  border: gray inset 3px;
   background: black;
   color: bisque;
 
@@ -75,15 +84,25 @@ body {
 
   display: inline-block;
 }
+#ench:hover {
+  background: rgb(10, 0, 66);
+  border-radius: 25% 40% 30% 10%;
+}
+#ench:active {
+  background: linear-gradient(rgb(22, 1, 139), green);
+  box-shadow: 3px 3px rgb(22, 1, 139), -.5em 0 .8em rgb(100, 136, 100);
+  border-radius: 40% 40% 30% 10%;
+}
 .res_at_clik_img {
   height: 20px;
   width: 20px;                        /*иконки ресурсов ------ на кнопке */
   background-color: bisque;
+  border-radius: 3px;
 
   margin:  0 10%;
 
 }
-.res_at_clik_count_wood,.res_at_clik_count_iron,.res_at_clik_count_gold {          /*количество ресурсов необходимое для улучшения*/
+.res_at_clik_count_wood,.res_at_clik_count_iron {          /*количество ресурсов необходимое для ОБЫЧНОГО улучшения*/
   margin:  0 10%;
   color: bisque;
   font-size: 17px;
