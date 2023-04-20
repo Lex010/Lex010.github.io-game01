@@ -74,8 +74,9 @@ body {
  
 } 
 #name{
-  font-size: 25px;
+  font-size: 35px;
   font-family: 700px;
+  margin-bottom: 25px;
 }
 #ench {                          /*кнопка улучшения*/
   cursor: pointer;
