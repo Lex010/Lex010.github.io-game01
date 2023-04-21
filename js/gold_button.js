@@ -17,6 +17,7 @@ img.style.backgroundImage = "url('sword/sw1.png')"
 resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 } 
@@ -30,6 +31,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 } 
@@ -43,6 +45,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     }
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     } 
     return
 }
@@ -56,6 +59,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }  
@@ -69,6 +73,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     }
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 } 
@@ -82,6 +87,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }   
@@ -95,6 +101,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -108,6 +115,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }   
@@ -121,6 +129,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -134,6 +143,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -147,6 +157,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -160,6 +171,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -173,6 +185,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -186,6 +199,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -199,6 +213,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -212,6 +227,7 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
@@ -229,6 +245,7 @@ ench.style.opacity = '.5'
     } 
     else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
+        alert('Не повезло. Но меч остался цел')
     }
     return
 }
