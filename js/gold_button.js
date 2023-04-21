@@ -6,8 +6,11 @@ const txBtn = document.getElementsByClassName('ench_red_tx')
 
 
 
+
 goltButt.onclick = function () {
     let percent = (Math.random() * 100).toFixed(2)
+    //
+    if(resourcesCount[2].textContent > 0) {
 if(name.textContent === 'Меч +0' ) {
     if (percent <= 90) {   
 name.textContent = 'Меч +1'
@@ -20,7 +23,12 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
         alert('Не повезло. Но меч остался цел')
     }
     return
-} 
+}
+} else {
+    alert('Не хватает золота!')
+    return
+}
+////////////////
 if(name.textContent === 'Меч +1' ) {
     if (percent <= 80) {   
 name.textContent = 'Меч +2'
