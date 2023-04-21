@@ -84,8 +84,9 @@ body {
   text-align:  center;
   font-size: 35px;
   font-family: 700px;
-  margin-bottom: 25px;
+  margin-bottom: 125px;
 }
+
 #ench {                          /*кнопка улучшения*/
   cursor: pointer;
   
