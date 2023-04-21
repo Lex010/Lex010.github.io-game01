@@ -135,6 +135,8 @@ body {
 #ench_red:active {
   background: linear-gradient(rgb(102, 102, 102), rgb(224, 224, 224));
   border-radius: 35%;
+
+  
 }
 .ench_red_tx {
   font-weight: bold;

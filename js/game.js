@@ -3,6 +3,9 @@ const name = document.getElementById('name')
 const img = document.getElementById('weap_img')
 const ch = document.getElementById('ch')
 
+const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
+                                                                     resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
+                                                                     resourcesCount[2] --- цифры ЗОЛОТА  на панели в верху*/
 
 
 ench.onclick = function game() {
@@ -13,6 +16,8 @@ name.textContent = 'Меч +1'
 ch.textContent = '80%'
 img.style.backgroundImage = "url('sword/sw1.png')"
 
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
            
         ench.style.display = 'none'   
@@ -20,6 +25,8 @@ img.style.backgroundImage = "url('sword/sw1.png')"
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 } 
@@ -28,11 +35,17 @@ if(name.textContent === 'Меч +1' ) {
 name.textContent = 'Меч +2'
 ch.textContent = '75%'
 img.style.backgroundImage = "url('sword/sw2.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
+        restart.style.display = 'flex'  
+        
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 } 
@@ -41,11 +54,17 @@ if(name.textContent === 'Меч +2' ) {
 name.textContent = 'Меч +3'
 ch.textContent = '70%'
 img.style.backgroundImage = "url('sword/sw3.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -54,11 +73,17 @@ if(name.textContent === 'Меч +3' ) {
 name.textContent = 'Меч +4'
 ch.textContent = '65%'
 img.style.backgroundImage = "url('sword/sw4.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }  
@@ -67,11 +92,17 @@ if(name.textContent === 'Меч +4' ) {
 name.textContent = 'Меч +5'
 ch.textContent = '60%'
 img.style.backgroundImage = "url('sword/sw5.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 } 
@@ -80,11 +111,17 @@ if(name.textContent === 'Меч +5' ) {
 name.textContent = 'Меч +6'
 ch.textContent = '55%'
 img.style.backgroundImage = "url('sword/sw6.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }   
@@ -93,11 +130,17 @@ if(name.textContent === 'Меч +6' ) {
 name.textContent = 'Меч +7'
 ch.textContent = '50%'
 img.style.backgroundImage = "url('sword/sw7.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -106,11 +149,17 @@ if(name.textContent === 'Меч +7' ) {
 name.textContent = 'Меч +8'
 ch.textContent = '47%'
 img.style.backgroundImage = "url('sword/sw8.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }   
@@ -119,11 +168,17 @@ if(name.textContent === 'Меч +8' ) {
 name.textContent = 'Меч +9'
 ch.textContent = '44%'
 img.style.backgroundImage = "url('sword/sw9.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -132,11 +187,17 @@ if(name.textContent === 'Меч +9' ) {
 name.textContent = 'Меч +10'
 ch.textContent = '41%'
 img.style.backgroundImage = "url('sword/sw10.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -145,11 +206,17 @@ if(name.textContent === 'Меч +10' ) {
 name.textContent = 'Меч +11'
 ch.textContent = '38%'
 img.style.backgroundImage = "url('sword/sw11.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
+        restart.style.display = 'flex' 
+        
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -158,11 +225,17 @@ if(name.textContent === 'Меч +11' ) {
 name.textContent = 'Меч +12'
 ch.textContent = '35%'
 img.style.backgroundImage = "url('sword/sw12.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -171,11 +244,17 @@ if(name.textContent === 'Меч +12' ) {
 name.textContent = 'Меч +13'
 ch.textContent = '32%'
 img.style.backgroundImage = "url('sword/sw13.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -184,11 +263,17 @@ if(name.textContent === 'Меч +13' ) {
 name.textContent = 'Меч +14'
 ch.textContent = '29%'
 img.style.backgroundImage = "url('sword/sw14.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
+        restart.style.display = 'flex'  
+        
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -197,11 +282,17 @@ if(name.textContent === 'Меч +14' ) {
 name.textContent = 'Меч +15'
 ch.textContent = '26%'
 img.style.backgroundImage = "url('sword/sw15.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -210,11 +301,17 @@ if(name.textContent === 'Меч +15' ) {
 name.textContent = 'Меч +16'
 ch.textContent = '23%'
 img.style.backgroundImage = "url('sword/sw16.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex'   
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
@@ -223,11 +320,21 @@ if(name.textContent === 'Меч +16' ) {
 name.textContent = 'Меч +17'
 ch.textContent = 'ЗАВЕРШЕНО'
 img.style.backgroundImage = "url('sword/sw17.png')"
+
+resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+txBtn[0].textContent = 'МАКС.'
+goltButt.style.opacity = '.5'
+ench.style.opacity = '.5'
     } else {
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
+        restart.style.display = 'flex' 
+
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 }
