@@ -49,8 +49,11 @@ body {
 }
 .count_rs {
   position: relative;
-  margin-left: 10px;
+  margin-left: 5px;
+
+  display: flex;
 }
+
 .items {                               /*страница с улучшением меча*/
   position: absolute;
   margin-top: 90px;
@@ -136,7 +139,7 @@ body {
   background: linear-gradient(rgb(102, 102, 102), rgb(224, 224, 224));
   border-radius: 35%;
 
-  
+
 }
 .ench_red_tx {
   font-weight: bold;
