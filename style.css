@@ -16,9 +16,11 @@ body {
   position: fixed; 
   top: 0;
   z-index: 1000;
+  border-bottom: #333 1px solid;
 }
  .iron, .gold, .wood {
    color: bisque;
+   
 
           text-shadow: 1px 0 1px #000, /*контур цифры ресурсов*/
           0 1px 1px #000, 
@@ -34,12 +36,16 @@ body {
   width: 35px;                        /*иконки ресурсов ДЕРЕВА И ЖЕЛЕЗА*/
   background-color: bisque;
   border-radius: 3px;
+
+  border: #333 solid 1px;
 }
 .for_sr_im_gold {
   height: 35px;
   width: 35px;                        /*иконки ресурсов ЗОЛОТА*/
   background: linear-gradient(rgb(147, 226, 171), orange);
   border-radius: 30px;
+
+  border: #333 solid 1px;
 }
 .count_rs {
   position: relative;
