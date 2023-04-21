@@ -10,6 +10,8 @@ const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesC
 
 ench.onclick = function game() {
     let percent = (Math.random() * 100).toFixed(2)
+    //
+   if(resourcesCount[0].textContent > 0 && resourcesCount[1].textContent > 0) {
 if(name.textContent === 'Меч +0' ) {
     if (percent <= 90) {   
 name.textContent = 'Меч +1'
@@ -30,6 +32,11 @@ resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     }
     return
 } 
+   } else {
+    alert('Не хватает дерева или железа!')
+    return
+   }
+/////////////////////   
 if(name.textContent === 'Меч +1' ) {
     if (percent <= 80) {   
 name.textContent = 'Меч +2'
