@@ -61,25 +61,31 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-#weap_img {
+#weap_img {                    /*изображение меча*/
   margin-left: 50px;
   margin-right: 50px;
 
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   background: url(sword/sw0.png) no-repeat;
-  background-size: 350px 500px;
+  background-size: 300px 450px;
   object-fit: cover;
  
  
 } 
 #name{
+  position: relative;
+  text-align:  center;
   font-size: 35px;
   font-family: 700px;
   margin-bottom: 25px;
 }
 #ench {                          /*кнопка улучшения*/
   cursor: pointer;
+  
+  position: absolute;           /*выравнивание кнопки по правому краю */
+  right: 0;
+  margin-right: 10%;
 
   border-radius: 10% 40% 30% 10%;
   border: gray inset 3px;
@@ -87,10 +93,9 @@ body {
   color: bisque;
 
                               
-  width: 200px;
+  width: 150px;
   height: 120px;
 
-  display: inline-block;
 }
 #ench:hover {
   background: rgb(10, 0, 66);
@@ -119,14 +124,14 @@ body {
 #restart {                        /*не видимая кнопка рестарта*/
   display: none;
 
-  position: absolute;
+ position: absolute;
   margin-top: 20%;
 
   border: none;
   cursor: pointer;
 
   width: 200px;
-  height: 500px;
+  height: 200px;
 
   text-align: center;
   font-size: 40px;
@@ -134,4 +139,9 @@ body {
   font-weight: bold;
   color: #333;
   background-color: rgba(0, 255, 0, 0);
+}
+.aligment {               /*блок с изображением меча и кнопка улучшения становятся в одну линию(до этого были колонкой отображены)*/
+  display: flex;
+display: 1 1 0;
+margin-top: 100px;
 }
