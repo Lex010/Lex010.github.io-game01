@@ -112,6 +112,45 @@ body {
   box-shadow: 3px 3px rgb(22, 1, 139), -.5em 0 .8em rgb(100, 136, 100);
   border-radius: 40% 40% 30% 10%;
 }
+
+#ench_red {
+  cursor: pointer;                /*улучшение золотом*/
+  position: absolute;           /*выравнивание кнопки по левому краю  */
+  left: 0;                       /*в низ*/
+  bottom: 0;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  
+  border-radius: 40%;
+  border: #333 inset 3px;
+  background: linear-gradient(black, gray);
+
+  width: 100px;
+  height: 90px;
+}
+#ench_red:hover {
+  background: linear-gradient(rgb(46, 46, 46), rgb(165, 165, 165));
+}
+#ench_red:active {
+  background: linear-gradient(rgb(102, 102, 102), rgb(224, 224, 224));
+  border-radius: 35%;
+}
+.ench_red_tx {
+  font-weight: bold;
+  color: bisque;
+}
+.ench_red_img {      /*иконка золота на улучшеной кнопке*/
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(rgb(147, 226, 171), orange);
+  border-radius: 30px;
+}
+.ench_red_img_count {    /*количества золота за нажатие*/
+  color: bisque;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
 .res_at_clik_img {
   height: 20px;
   width: 20px;                        /*иконки ресурсов ------ на кнопке */
