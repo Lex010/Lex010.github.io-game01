@@ -3,6 +3,9 @@ const name = document.getElementById('name')
 const img = document.getElementById('weap_img')
 const ch = document.getElementById('ch')
 
+const woodMinus = document.getElementsByClassName('wood-1')
+const ironMinus = document.getElementsByClassName('iron-1')
+
 const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
                                                                      resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
                                                                      resourcesCount[2] --- цифры ЗОЛОТА  на панели в верху*/
@@ -12,6 +15,17 @@ ench.onclick = function game() {
     let percent = (Math.random() * 100).toFixed(2)
     //
    if(resourcesCount[0].textContent > 0 && resourcesCount[1].textContent > 0) {
+    woodMinus[0].classList.add('wood-1_clik');  ironMinus[0].classList.add('iron-1_clik');//при клике отображает анимацию минусования ресурсов
+///////////////////////////////////////
+woodMinus[0].addEventListener("animationend", end02, false);
+function end02(){                                                 //удаляет анимацию по ее завершению
+    woodMinus[0].classList.remove('wood-1_clik');
+};
+ironMinus[0].addEventListener("animationend", end03, false);
+function end03(){                                                 //удаляет анимацию по ее завершению
+    ironMinus[0].classList.remove('iron-1_clik');
+};
+///////////////////////////////////////
 if(name.textContent === 'Меч +0' ) {
     if (percent <= 90) {   
 name.textContent = 'Меч +1'

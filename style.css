@@ -67,10 +67,10 @@ body {
   opacity: 0;
   }
   .wood-1_clik {                   /*запуск анимации по нажатию клавиши*/
-    animation: minus_res 1s  forwards ;
+    animation: minus_res .5s  forwards ;
   }
   .iron-1_clik {
-    animation: minus_res 1s  forwards ;
+    animation: minus_res .5s  forwards ;
   }
   .gold-1_clik {
     animation: minus_res .5s  forwards ;
