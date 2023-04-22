@@ -244,3 +244,14 @@ margin-top: 100px;
  border-radius: 6px;
 
 }
+.enemy {
+  display: flex;
+  justify-content: center;
+}
+.enemy_img {
+
+  height: 300px;
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
