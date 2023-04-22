@@ -1,5 +1,6 @@
 const goltButt = document.getElementById('ench_red')
 const txBtn = document.getElementsByClassName('ench_red_tx')
+const goldMinus = document.getElementsByClassName('gold-1')
 /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
  resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
   resourcesCount[2] --- цифры ЗОЛОТА на панели в верху*/
@@ -11,6 +12,13 @@ goltButt.onclick = function () {
     let percent = (Math.random() * 100).toFixed(2)
     //
     if(resourcesCount[2].textContent > 0) {
+goldMinus[0].classList.add('gold-1_clik')//при клике отображает анимацию минусования ресурсов
+///////////////////////////////////////
+goldMinus[0].addEventListener("animationend", end, false);
+function end(){                                                 //удаляет анимацию по ее завершению
+    goldMinus[0].classList.remove('gold-1_clik');
+}
+///////////////////////////////////////
 if(name.textContent === 'Меч +0' ) {
     if (percent <= 90) {   
 name.textContent = 'Меч +1'

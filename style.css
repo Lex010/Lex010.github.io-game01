@@ -53,7 +53,28 @@ body {
 
   display: flex;
 }
-
+@keyframes minus_res {          /*анимация минусования ресурсов*/
+  0% {
+      opacity: 0; transform: translateY(-45px); 
+  }
+  100% {
+      opacity: 1;transform: translateY(-60px);
+  }
+ 
+}
+.wood-1,.iron-1,.gold-1 {  /*-1 c 0 нулевой видимостью*/
+  position: absolute;
+  opacity: 0;
+  }
+  .wood-1_clik {                   /*запуск анимации по нажатию клавиши*/
+    animation: minus_res 1s  forwards ;
+  }
+  .iron-1_clik {
+    animation: minus_res 1s  forwards ;
+  }
+  .gold-1_clik {
+    animation: minus_res .5s  forwards ;
+  }
 .items {                               /*страница с улучшением меча*/
   position: absolute;
   margin-top: 90px;
