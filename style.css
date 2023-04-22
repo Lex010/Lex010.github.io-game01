@@ -246,6 +246,9 @@ margin-top: 100px;
   height: 100vh;
   background: rgb(193, 255, 113);
 }
+.for_bottom_margin {          /* отступ с низу чтоб нижняя панель  не закрывала карточку противника*/
+  margin-bottom: 70px;
+}
 .row {
   display: flex;
   justify-content: center;
