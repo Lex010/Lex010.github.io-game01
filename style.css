@@ -75,6 +75,23 @@ body {
   .gold-1_clik {
     animation: minus_res .5s  forwards ;
   }
+/*****************************************/
+.bottom_menu{                 /*Нижнее меню*/
+  height: 50px;
+  width: 100%;
+
+  
+  background: url(head_im.jpg) no-repeat;
+  background-size: cover;
+
+  border-radius: 5px;  
+
+  position: fixed; 
+  bottom: 0;
+  z-index: 1000;
+  border-bottom: #333 1px solid;
+}
+/*************************/
 .items {                               /*страница с улучшением меча*/
   position: absolute;
   margin-top: 90px;
