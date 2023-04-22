@@ -1,10 +1,3 @@
-const goltButt = document.getElementById('ench_red')
-const txBtn = document.getElementsByClassName('ench_red_tx')
-
-const goldMinus = document.getElementsByClassName('gold-1')
-/*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
- resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
-  resourcesCount[2] --- цифры ЗОЛОТА на панели в верху*/
 
 
 

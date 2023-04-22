@@ -9,6 +9,17 @@ const ironMinus = document.getElementsByClassName('iron-1')
 const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
                                                                      resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
                                                                      resourcesCount[2] --- цифры ЗОЛОТА  на панели в верху*/
+//////////////////////////
+ const goltButt = document.getElementById('ench_red')
+ const txBtn = document.getElementsByClassName('ench_red_tx')
+                                                                     
+ const goldMinus = document.getElementsByClassName('gold-1')
+                             /////////!!!!!!!!!!!//////////
+                             //////////////////////////////////
+///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////
+                            ///////////////////////////
+                         ////////////////////////////
+                                                                     
 
 
 ench.onclick = function game() {
@@ -47,7 +58,14 @@ resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     return
 } 
    } else {
-    alert('Не хватает дерева или железа!')
+    //alert('Не хватает дерева или железа!')  
+    resourcesCount[0].style.color = 'red'                 //краснеют цифры если не достаточно ресурсов
+    function wNum() {resourcesCount[0].style.color = 'bisque'}
+    setTimeout(wNum,1000)
+    //
+    resourcesCount[1].style.color = 'red'                 //краснеют цифры если не достаточно ресурсов
+    function iNum() {resourcesCount[1].style.color = 'bisque'}
+    setTimeout(iNum,1000)
     return
    }
 /////////////////////   
