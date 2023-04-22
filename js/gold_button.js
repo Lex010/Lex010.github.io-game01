@@ -27,7 +27,14 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     return
 }
 } else {
-    alert('Не хватает золота!')
+   // alert('Не хватает золота!')
+   resourcesCount[2].style.color = 'red'                 //краснеют цифры если не достаточно ресурсов
+    function gNum() {resourcesCount[2].style.color = 'bisque'}
+    setTimeout(gNum,1000)
+    //
+    bgGoldIcon[0].style.background = 'red'
+    function gBg() {bgGoldIcon[0].style.background = 'linear-gradient(rgb(147, 226, 171), orange)'}   
+    setTimeout(gBg,1000) 
     return
 }
 ////////////////

@@ -9,7 +9,8 @@ const ironMinus = document.getElementsByClassName('iron-1')
 const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
                                                                      resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
                                                                      resourcesCount[2] --- цифры ЗОЛОТА  на панели в верху*/
-const bgResIcon = document.getElementsByClassName('for_sr_im')                                                                     
+const bgResIcon = document.getElementsByClassName('for_sr_im')   
+const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //фон ресурсов                                                         
 //////////////////////////
  const goltButt = document.getElementById('ench_red')
  const txBtn = document.getElementsByClassName('ench_red_tx')
