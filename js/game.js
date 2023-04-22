@@ -9,6 +9,7 @@ const ironMinus = document.getElementsByClassName('iron-1')
 const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
                                                                      resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
                                                                      resourcesCount[2] --- цифры ЗОЛОТА  на панели в верху*/
+const bgResIcon = document.getElementsByClassName('for_sr_im')                                                                     
 //////////////////////////
  const goltButt = document.getElementById('ench_red')
  const txBtn = document.getElementsByClassName('ench_red_tx')
@@ -66,6 +67,14 @@ resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     resourcesCount[1].style.color = 'red'                 //краснеют цифры если не достаточно ресурсов
     function iNum() {resourcesCount[1].style.color = 'bisque'}
     setTimeout(iNum,1000)
+                                                        ////// фон иконок ресурсов краснеет
+    bgResIcon[0].style.backgroundColor = 'red'
+    function wBg() {bgResIcon[0].style.backgroundColor = 'bisque'}   
+    setTimeout(wBg,1000)                                                 
+///////
+    bgResIcon[1].style.backgroundColor = 'red'
+    function iBg() {bgResIcon[1].style.backgroundColor = 'bisque'}   
+    setTimeout(iBg,1000)   
     return
    }
 /////////////////////   
