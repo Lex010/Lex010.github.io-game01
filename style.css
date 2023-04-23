@@ -244,8 +244,8 @@ margin-top: 100px;
   padding-bottom: 100px;  /*костыль для того чтоб нижняя панель не наезжала на нижнюю часть изображения второй страницы*/
  position: absolute;
   width: 100%;
-  height: 100vh;
-  background: rgb(255, 189, 113);
+  height: auto;
+  background: rgb(255, 218, 176);
 }
 
 .row {
@@ -254,8 +254,8 @@ margin-top: 100px;
  
 }
 .row_unit {
- margin-left: 5px;
- margin-top: 5px;
+ margin-left: 3px;
+ margin-top: 3px;
 
  height: 63px;
  width: 63px;
