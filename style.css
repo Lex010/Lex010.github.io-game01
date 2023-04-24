@@ -64,6 +64,7 @@ body {
 }
 .wood-1,.iron-1,.gold-1 {  /*-1 c 0 нулевой видимостью*/
   position: absolute;
+  color: red;
   opacity: 0;
   }
   .wood-1_clik {                   /*запуск анимации по нажатию клавиши*/
