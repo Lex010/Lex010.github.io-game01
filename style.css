@@ -109,7 +109,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-#weap_img {                    /*изображение меча*/
+#weap_img {                    /*изображение  меча*/
   margin-left: 50px;
   margin-right: 50px;
 
@@ -273,12 +273,18 @@ margin-top: 100px;
 .enemy {
   display: flex;
   justify-content: center;
+ 
 }
 .enemy_img {
 
-  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+
   width: 200px;
-  background-color: aliceblue;
+  height: 300px;
+  background: url(enemy_img/boar_enemy.jpg) no-repeat;
+  background-size: 200px 300px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
