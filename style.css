@@ -220,16 +220,31 @@ body {
   border: none;
   cursor: pointer;
 
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
 
   text-align: center;
-  font-size: 40px;
-  text-shadow: #333 5px 5px 10px;
+  font-size: 45px;
   font-weight: bold;
   color: #333;
-  background-color: rgba(0, 255, 0, 0);
-}
+  /*background-color: rgba(0, 255, 0, 0);       ниже этой строки добавлена анимация букв слова "перековать" */
+  text-shadow: #000000 32px 32px 12px;
+ 
+  background: linear-gradient(to right, black, rgb(196, 196, 0) 40%, rgb(196, 196, 1) 60%, black 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  }
+ @keyframes shine {
+    to {
+      background-position: 200% center;
+    }}
+
 .aligment {               /*блок с изображением меча и кнопка улучшения становятся в одну линию(до этого были колонкой отображены)*/
   display: flex;
 display: 1 1 0;
