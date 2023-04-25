@@ -72,7 +72,7 @@ function createPage() {
 	components.container.style.display = "flex";
 	components.container.style.alignItems = "center";
 	components.container.style.justifyContent = "center";
-	components.container.style.marginTop = '1239px'                                                           //добавил строку (805px + 354px +80)
+	components.container.style.marginTop = '1249px'                                                           //добавил строку (805px + 354px +90)
 	components.container.style.position = 'absolute'                                                        //добавил строку
 	components.container.style.width = '100%'                                                               //добавил строку
 	components.container.style.opacity = '1'                                                              //добавил строку Прозрачность для настройки

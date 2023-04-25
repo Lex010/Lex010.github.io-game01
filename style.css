@@ -246,7 +246,8 @@ margin-top: 100px;
  position: absolute;
   width: 100%;
   height: auto;
-  background: rgb(255, 218, 176);
+  /**/background: url(bg_002.jpg);
+  /*background: rgb(255, 218, 176);*/
 }
 /*#sect2_container{
   position: absolute;
@@ -285,7 +286,9 @@ margin-top: 100px;
   background: url(enemy_img/boar_enemy.jpg) no-repeat;
   background-size: 200px 300px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: #333 solid 5px;
+ 
 }
 
 .bottom_menu {
@@ -313,6 +316,18 @@ margin-top: 100px;
     
       }
       #button_start {
-        width: 100px;
+        width: 150px;
         height: 50px;
+
+        background: radial-gradient(red,orange);
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 15px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        color: bisque;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+        0 -1px 1px #000;
       }
