@@ -127,7 +127,9 @@ body {
   font-size: 35px;
   font-family: 700px;
   margin-bottom: 125px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
+
 
 #ench {                          /*кнопка улучшения*/
   cursor: pointer;
@@ -249,7 +251,7 @@ body {
 .aligment {               /*блок с изображением меча и кнопка улучшения становятся в одну линию(до этого были колонкой отображены)*/
   display: flex;
 display: 1 1 0;
-margin-top: 100px;
+margin-top: 50px;
 }
 
 /*                                           Вторая страница                                  */
@@ -257,7 +259,7 @@ margin-top: 100px;
   text-align: center;
 }
 .sect2{
-  margin-top: 805px;        /*костыль для отображения страницы с мечем*/
+  margin-top: 755px;        /*костыль для отображения страницы с мечем*/
   padding-bottom: 100px;  /*костыль для того чтоб нижняя панель не наезжала на нижнюю часть изображения второй страницы*/
  position: absolute;
   width: 100%;
