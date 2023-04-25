@@ -311,9 +311,12 @@ margin-top: 100px;
 }
   /* Кнопка старт*/
   #start {
+   /* display: flex;
+    justify-content: center;*/
     display: flex;
     justify-content: center;
-    
+
+    margin-top: 5px;
       }
       #button_start {
         width: 150px;
@@ -331,3 +334,23 @@ margin-top: 100px;
         -1px 0 1px #000, 
         0 -1px 1px #000;
       }
+      /*Кнопка РЕстарта*/
+      
+          #button_restart {
+            width: 150px;
+            height: 50px;
+    
+            background: radial-gradient(rgb(255, 206, 206), rgb(0, 132, 255));
+            font-size: 20px;
+            font-weight: bolder;
+            border-radius: 15px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            color: bisque;
+            text-shadow: 1px 0 1px #000, 
+            0 1px 1px #000, 
+            -1px 0 1px #000, 
+            0 -1px 1px #000;
+
+            display: none;
+          }

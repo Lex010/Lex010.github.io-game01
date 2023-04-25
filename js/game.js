@@ -16,7 +16,9 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const txBtn = document.getElementsByClassName('ench_red_tx')
                                                                      
  const goldMinus = document.getElementsByClassName('gold-1')
-
+ //
+ const buttonStart = document.getElementById('button_start') // Кнопка старта "3 в ряд"
+ const buttonReStart = document.getElementById('button_restart')   //Кнопка рестарта
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////

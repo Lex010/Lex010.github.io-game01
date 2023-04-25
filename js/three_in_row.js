@@ -44,9 +44,10 @@ let components = {
 
 
 // start Game                                                                        //Мои изменения: добавляю кнопку старт
-const buttonStart = document.getElementById('button_start')                          //
+                                                                                    //-------------------------------------------------------
 buttonStart.onclick = function() {                                                    //
 	buttonStart.style.display = 'none'                                                 //
+	buttonReStart.style.display = 'flex'
 
 initGame();
 }
