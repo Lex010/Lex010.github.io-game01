@@ -311,8 +311,6 @@ margin-top: 100px;
 }
   /* Кнопка старт*/
   #start {
-   /* display: flex;
-    justify-content: center;*/
     display: flex;
     justify-content: center;
 
@@ -333,6 +331,15 @@ margin-top: 100px;
         0 1px 1px #000, 
         -1px 0 1px #000, 
         0 -1px 1px #000;
+
+        cursor: pointer;
+      }
+      #button_start:hover {
+        opacity: .8;
+      }
+      #button_start:active {
+        opacity: .6;
+        border-radius: 10px;
       }
       /*Кнопка РЕстарта*/
       
@@ -352,5 +359,14 @@ margin-top: 100px;
             -1px 0 1px #000, 
             0 -1px 1px #000;
 
+            cursor: pointer;
+
             display: none;
           }
+ #button_restart:hover {
+  opacity: .8;
+ }
+ #button_restart:active {
+  opacity: .6;
+  border-radius: 10px;
+ }
