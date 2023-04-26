@@ -445,7 +445,10 @@ function removeGems( row, col ) {
 			countRemoveGem++;
 		}
 	}
-
+////////////////////////////////////////////////////
+if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_6.png"){                                               //добавление ресурсов при сложении пазлов                            
+	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ }                //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
+////////////////////////////////////////////////////                                                /**/+ 1 * countRemoveGem; /**/ убраное количество гемов = добавленные ресурсы
 	components.gems[ row ][ col ] = -1;
 
 	scoreInc( countRemoveGem );
