@@ -466,22 +466,22 @@ function greenNum(){
 };
 ///////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_2.png") {                                    // сбор ОДИНОЧНЫХ МЕЧ
-	let healthEnemyAtNow = healthBar.textContent = healthBar.textContent - countRemoveGem
-//<=
-const onePercentHealthOfEnemy = fixedHealthEnemy.textContent / 100                                                    //  выисчитываем 1% от фиксированого показателя жизни противника
- let result = Math.ceil(healthEnemyAtNow / onePercentHealthOfEnemy)                                                   // считаем текущий показатель жизни в %
-let stringColorStyle = 'linear-gradient(to right, green 100%, red 10%)'                                               // базовое значение со 100% заполненостью полоски жизни
-healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColorStyle.slice(35)                       //внесение изменений в стиль исходя из текущих показателей
+	let healthEnemyAtNow = healthBar.textContent = (healthBar.textContent - countRemoveGem) - (countRemoveGem  * name.textContent.replace(/[^\d]/g, '')) // ФОРМУЛА УРОНА
+//<=                                      //  <<("Количество здоровья" - "количество убраных гемов") - ("количество убраных гемов" * "значение улучшености меча") >>
+const onePercentHealthOfEnemy = fixedHealthEnemy.textContent / 100                                                  //  выисчитываем 1% от фиксированого показателя жизни противника
+ let result = Math.ceil(healthEnemyAtNow / onePercentHealthOfEnemy)                                                  // считаем текущий показатель жизни в %
+let stringColorStyle = 'linear-gradient(to right, green 100%, red 10%)'                                              // базовое значение со 100% заполненостью полоски жизни
+healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColorStyle.slice(35)                      //внесение изменений в стиль исходя из текущих показателей
 };	
 //<=
 //////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
 	let healthEnemyAtNowTwo = healthBar.textContent = healthBar.textContent - (countRemoveGem * 2)
 	//<=                                                                                                               //<= 
-const onePercentHealthOfEnemyTwo = fixedHealthEnemy.textContent / 100                                                //  выисчитываем 1% от фиксированого показателя жизни противника 
-let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)                                          // считаем текущий показатель жизни в % 
-let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'                                            // базовое значение со 100% заполненостью полоски жизни
-healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)              //внесение изменений в стиль исходя из текущих показателей
+const onePercentHealthOfEnemyTwo = fixedHealthEnemy.textContent / 100                                              //  выисчитываем 1% от фиксированого показателя жизни противника 
+let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)                                         // считаем текущий показатель жизни в % 
+let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'                                           // базовое значение со 100% заполненостью полоски жизни
+healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)             //внесение изменений в стиль исходя из текущих показателей
 };                                                                                                                       //<=
 ////////////////////////////////////////////////
 	components.gems[ row ][ col ] = -1;
