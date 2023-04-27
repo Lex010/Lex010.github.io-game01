@@ -456,6 +456,12 @@ function greenNum(){                                                            
 	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ }                //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
 ////////////////////////////////////////////////////                                                /**/+ 1 * countRemoveGem; /**/ убраное количество гемов = добавленные ресурсы
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png") {
+	woodPlus[0].classList.add('wood_plus_clik') 
+	woodPlus[0].textContent = `+ ${countRemoveGem}`
+	woodPlus[0].addEventListener("animationend", greenNum, false); 
+function greenNum(){  	
+	woodPlus[0].classList.remove('wood_plus_clik');                                                                          // <= зеленые цифры для дерева
+}                                                                                                                          
 	resourcesCount[0].textContent = Number(resourcesCount[0].textContent) /**/ + 1 * countRemoveGem; /**/                 //прибавка к дереву  
 }
 ///////////////////////////////////////////////////
