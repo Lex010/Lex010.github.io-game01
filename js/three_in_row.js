@@ -453,9 +453,9 @@ if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_6.png"
 function greenNum(){                                                                                                        //удаляет анимацию по ее завершению
     ironPlus[0].classList.remove('iron_plus_clik');                                                                          // <=
 }                                                                                                                             // <= анимация ЗЕЛЕНЫХ цифр прибавления ресурсов                  
-	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ }                //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
+	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ };              //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
 ////////////////////////////////////////////////////                                                /**/+ 1 * countRemoveGem; /**/ убраное количество гемов = добавленные ресурсы
-if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png") {
+if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png") {                                //         дерево
 	woodPlus[0].classList.add('wood_plus_clik') 
 	woodPlus[0].textContent = `+ ${countRemoveGem}`
 	woodPlus[0].addEventListener("animationend", greenNum, false); 
@@ -463,8 +463,22 @@ function greenNum(){
 	woodPlus[0].classList.remove('wood_plus_clik');                                                                          // <= зеленые цифры для дерева
 }                                                                                                                          
 	resourcesCount[0].textContent = Number(resourcesCount[0].textContent) /**/ + 1 * countRemoveGem; /**/                 //прибавка к дереву  
-}
+};
 ///////////////////////////////////////////////////
+if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_2.png") {                                    // сбор ОДИНОЧНЫХ МЕЧ
+	let healthEnemyAtNow = healthBar.textContent = healthBar.textContent - countRemoveGem
+//<=
+const onePercentHealthOfEnemy = fixedHealthEnemy.textContent / 100                                                    //  выисчитываем 1% от фиксированого показателя жизни противника
+ let result = Math.ceil(healthEnemyAtNow / onePercentHealthOfEnemy)                                                   // считаем текущий показатель жизни в %
+let stringColorStyle = 'linear-gradient(to right, green 100%, red 10%)'                                               // базовое значение со 100% заполненостью полоски жизни
+healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColorStyle.slice(35)                       //внесение изменений в стиль исходя из текущих показателей
+};	
+//<=
+//////////////////////////////////////////////////
+if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
+	healthBar.textContent = healthBar.textContent - (countRemoveGem * 2)
+};
+////////////////////////////////////////////////
 	components.gems[ row ][ col ] = -1;
 
 	scoreInc( countRemoveGem );

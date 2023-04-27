@@ -319,7 +319,7 @@ margin-top: 50px;
   
 }
 #health_bar {                               /*Полоска здоровья у противника */
-background: linear-gradient(to right, green 80%, red 20%) ;                    /**/
+background: linear-gradient(to right, green 100%, red 10%) ;                    /**/
 width: 200px;
 height: 23px;
 text-align: center;
@@ -337,6 +337,9 @@ text-shadow: 1px 0 1px #333, /*контур цифры ресурсов*/
 0 -1px 1px #333;
 
 display: inline;                             /*выравнивает цифры здоровья*/
+}
+#hundred_percent_helth{                     /* не видимое базовое значение жизни противника*/
+  display: none;
 }
 .row {
   display: flex;
