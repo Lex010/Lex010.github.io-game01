@@ -4,7 +4,12 @@ const img = document.getElementById('weap_img')
 const ch = document.getElementById('ch')
 
 const woodMinus = document.getElementsByClassName('wood-1')
-const ironMinus = document.getElementsByClassName('iron-1')
+const ironMinus = document.getElementsByClassName('iron-1')    /* классы для отображения отнимания ресурсов на панель(КРАСНЫЕ всплывающие цифры) */
+const goldMinus = document.getElementsByClassName('gold-1')
+
+const woodPlus = document.getElementsByClassName('wood_plus')
+const ironPlus = document.getElementsByClassName('iron_plus')  /* классы для отображения добавления ресурсов на панель(ЗЕЛЕНЫЕ всплывающие цифры) */
+const goldPlus = document.getElementsByClassName('gold_plus')
 
 const resourcesCount = document.getElementsByClassName('count_rs')  /*resourcesCount[0] --- цифры ДЕРЕВА на панели в верху,
                                                                      resourcesCount[1] --- цифры ЖЕЛЕЗА на панели в верху,
@@ -15,7 +20,7 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const goltButt = document.getElementById('ench_red')
  const txBtn = document.getElementsByClassName('ench_red_tx')
                                                                      
- const goldMinus = document.getElementsByClassName('gold-1')
+ 
  //
  const buttonStart = document.getElementById('button_start') // Кнопка старта "3 в ряд"
  const buttonReStart = document.getElementById('button_restart')   //Кнопка рестарта

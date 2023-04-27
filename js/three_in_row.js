@@ -446,7 +446,13 @@ function removeGems( row, col ) {
 		}
 	}
 ////////////////////////////////////////////////////
-if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_6.png"){                                               //добавление ресурсов при сложении пазлов                            
+if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_6.png"){                                               //добавление ресурсов при сложении пазлов       
+	ironPlus[0].classList.add('iron_plus_clik')                                                                                 // <= анимация ЗЕЛЕНЫХ цифр прибавления ресурсов
+    ironPlus[0].textContent = `+ ${countRemoveGem}`
+	ironPlus[0].addEventListener("animationend", greenNum, false);                                                           // <=
+function greenNum(){                                                                                                        //удаляет анимацию по ее завершению
+    ironPlus[0].classList.remove('iron_plus_clik');                                                                          // <=
+}                                                                                                                             // <= анимация ЗЕЛЕНЫХ цифр прибавления ресурсов                  
 	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ }                //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
 ////////////////////////////////////////////////////                                                /**/+ 1 * countRemoveGem; /**/ убраное количество гемов = добавленные ресурсы
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png") {
