@@ -483,6 +483,16 @@ let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)     
 let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'                                           // базовое значение со 100% заполненостью полоски жизни
 healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)             //внесение изменений в стиль исходя из текущих показателей
 };                                                                                                                       //<=
+if(healthBar.textContent < 0) {                                                                                        /************************************* */
+	resourcesCount[2].textContent = Number(resourcesCount[2].textContent) + 1                                         //добавляет золото при уровне хп противника < 0  
+                                                                      
+	goldPlus[0].classList.add('gold_plus_clik')                                                                   //<=
+	goldPlus[0].textContent = '+ 1'
+	goldPlus[0].addEventListener("animationend", greenNum, false);                                                //анимация добавления золота
+function greenNum(){  	
+	goldPlus[0].classList.remove('gold_plus_clik');                                    
+}                                                                                                                   //<=
+}
 ////////////////////////////////////////////////
 	components.gems[ row ][ col ] = -1;
 
