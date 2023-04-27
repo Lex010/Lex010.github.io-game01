@@ -1,5 +1,15 @@
+@font-face { 
+  font-family: "CyrillicOldBold";
+  src: url("fonts/CyrillicOldBold/CyrillicOldBold.eot");
+  src: url("fonts/CyrillicOldBold/CyrillicOldBold.eot?#iefix")format("embedded-opentype"),
+  url("fonts/CyrillicOldBold/CyrillicOldBold.woff") format("woff"),
+  url("fonts/CyrillicOldBold/CyrillicOldBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}                                                                /*подключен шрифт старославянский*/
 body {
   margin: 0;
+  background-color: rgb(255, 181, 128);
 }
 
 .head {
@@ -81,6 +91,10 @@ body {
   height: 50px;
   width: 100%;
 
+  font-family: "CyrillicOldBold";
+  font-size: 1.5em;
+  color: bisque;
+
   
   background: url(head_im.jpg) no-repeat;
   background-size: cover;
@@ -124,12 +138,14 @@ body {
 #name{
   position: relative;
   text-align:  center;
-  font-size: 35px;
+  font-size: 45px;
   font-family: 700px;
   margin-bottom: 125px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  font-variant: small-caps;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;*/
+  /*font-variant: small-caps;*/
   
+  /**/font-family: "CyrillicOldBold";
+   
 }
 
 
@@ -145,6 +161,7 @@ body {
   background: linear-gradient(rgb(22, 1, 139), black);
   color: bisque;
 
+  font-family: "CyrillicOldBold";      /**/
                               
   width: 150px;
   height: 120px;
@@ -169,6 +186,9 @@ body {
   margin-left: 10%;
   margin-bottom: 20px;
   
+  font-family: "CyrillicOldBold";   /**/
+  font-size: 16px;
+
   border-radius: 40%;
   border: #333 inset 3px;
   background: linear-gradient(black, gray);
@@ -227,6 +247,8 @@ body {
 
   width: 350px;
   height: 350px;
+
+  font-family: "CyrillicOldBold";            /**/
 
   text-align: center;
   font-size: 45px;
@@ -369,6 +391,9 @@ display: inline;                             /*выравнивает цифры
         width: 150px;
         height: 50px;
 
+        font-family: "CyrillicOldBold";             /**/
+        font-size: 17px;
+
         background: radial-gradient(red,orange);
         font-size: 20px;
         font-weight: bolder;
@@ -395,6 +420,9 @@ display: inline;                             /*выравнивает цифры
           #button_restart {
             width: 150px;
             height: 50px;
+
+            font-family: "CyrillicOldBold";                      /**/
+            font-size: 19px;
     
             background: radial-gradient(rgb(255, 206, 206), rgb(0, 132, 255));
             font-size: 20px;
