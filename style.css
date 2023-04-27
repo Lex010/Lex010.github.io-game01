@@ -93,13 +93,13 @@ body {
     opacity: 0;
     }
     .wood_plus_clik {                   /*запуск анимации по нажатию клавиши*/
-      animation: minus_res 1s  forwards ;
+      animation: minus_res 2s  forwards ;
     }
     .iron_plus_clik {
-      animation: minus_res 1s  forwards ;
+      animation: minus_res 2s  forwards ;
     }
     .gold_plus_clik {
-      animation: minus_res 1s  forwards ;
+      animation: minus_res 2s  forwards ;
     }
 /*****************************************/
 .bottom_menu{                 /*Нижнее меню*/
