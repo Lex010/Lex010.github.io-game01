@@ -476,7 +476,7 @@ healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColo
 //<=
 //////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
-	let healthEnemyAtNowTwo = healthBar.textContent = healthBar.textContent - (countRemoveGem * 2)
+	let healthEnemyAtNowTwo = healthBar.textContent = (healthBar.textContent - countRemoveGem * 2) - (countRemoveGem  * name.textContent.replace(/[^\d]/g, '') * 2)
 	//<=                                                                                                               //<= 
 const onePercentHealthOfEnemyTwo = fixedHealthEnemy.textContent / 100                                              //  выисчитываем 1% от фиксированого показателя жизни противника 
 let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)                                         // считаем текущий показатель жизни в % 
