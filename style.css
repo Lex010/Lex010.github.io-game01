@@ -319,7 +319,7 @@ margin-top: 50px;
   
 }
 #health_bar {                               /*Полоска здоровья у противника */
-background: linear-gradient(to right, green 100%, red 10%) ;                    /**/
+background: linear-gradient(to right, green 100%, red 10%);                    /**/
 width: 200px;
 height: 23px;
 text-align: center;

@@ -476,8 +476,13 @@ healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColo
 //<=
 //////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
-	healthBar.textContent = healthBar.textContent - (countRemoveGem * 2)
-};
+	let healthEnemyAtNowTwo = healthBar.textContent = healthBar.textContent - (countRemoveGem * 2)
+	//<=                                                                                                               //<= 
+const onePercentHealthOfEnemyTwo = fixedHealthEnemy.textContent / 100                                                //  выисчитываем 1% от фиксированого показателя жизни противника 
+let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)                                          // считаем текущий показатель жизни в % 
+let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'                                            // базовое значение со 100% заполненостью полоски жизни
+healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)              //внесение изменений в стиль исходя из текущих показателей
+};                                                                                                                       //<=
 ////////////////////////////////////////////////
 	components.gems[ row ][ col ] = -1;
 
