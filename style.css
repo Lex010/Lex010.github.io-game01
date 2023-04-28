@@ -465,3 +465,34 @@ display: inline;                             /*выравнивает цифры
   opacity: .6;
   border-radius: 10px;
  }
+/* КНОПКА ПРОДОЛЖИТЬ*/
+ #button_continue {
+  width: 150px;
+  height: 50px;
+
+  font-family: "CyrillicOldBold";             /**/
+  font-size: 17px;
+
+  background: radial-gradient(red,orange);
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 15px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  color: bisque;
+  text-shadow: 1px 0 1px #000, 
+  0 1px 1px #000, 
+  -1px 0 1px #000, 
+  0 -1px 1px #000;
+
+  cursor: pointer;
+
+  display: none;
+}
+#button_continue:hover {
+  opacity: .8;
+}
+#button_continue:active {
+  opacity: .6;
+  border-radius: 10px;
+}

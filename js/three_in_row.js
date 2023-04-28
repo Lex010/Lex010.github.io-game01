@@ -491,7 +491,10 @@ if(healthBar.textContent < 0) {                                                 
 	goldPlus[0].addEventListener("animationend", greenNum, false);                                                //анимация добавления золота
 function greenNum(){  	
 	goldPlus[0].classList.remove('gold_plus_clik');                                    
-}                                                                                                                   //<=
+}                                                                                                                   //<=                                                                                                      
+components.container.style.display = 'none'                                                                          // скрываю гемы до нажатия кнопки
+buttonReStart.style.display = 'none'                                                                                 //убираю кнопку "обновить"
+buttonContinue.style.display = 'inline'                                                                                  //третья кнопка("продолить") теперь видна
 }
 ////////////////////////////////////////////////
 	components.gems[ row ][ col ] = -1;

@@ -23,6 +23,7 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  //
  const buttonStart = document.getElementById('button_start') // Кнопка старта "3 в ряд"
  const buttonReStart = document.getElementById('button_restart')   //Кнопка рестарта
+ const buttonContinue = document.getElementById('button_continue') /* КНОПКА ПРОДОЛЖИТЬ*/
  //
  const healthBar = document.getElementById('health_bar') // Количество жизни противника
  const fixedHealthEnemy = document.getElementById('hundred_percent_helth')// фиксированое количество жихни противника для расчета процентов

@@ -1,4 +1,4 @@
-buttonReStart.onclick = function() {
+buttonReStart.onclick = function refresh () {
    //document.querySelector( "#" + config.gemIdPrefix + "_" + "0" + "_" + "5" ).classList.add( "remove" );  удаляет указаный гем после сложения 3х гемов
 
    //document.querySelector("#" + config.gemIdPrefix + "_0_5").classList.add( "remove" );                //тоже самое по другому записаное
@@ -46,5 +46,20 @@ buttonReStart.onclick = function() {
    document.querySelector("#" + config.gemIdPrefix + "_5_4").classList.add( "remove" );
    document.querySelector("#" + config.gemIdPrefix + "_5_5").classList.add( "remove" );
    gemFade()     //удаляет выбраные гемы
-   initGame();  //перезапускает поле
-}
+   //initGame();  //перезапускает поле
+
+
+   createContentPage();                             //<=
+   createGrid();                                    //вместо initGame()
+   config.gameState = config.gameStates[ 0 ];       //<=    
+   
+};
+
+
+ buttonContinue.onclick = function() {    //ТРЕТЬЯ скрытая кнопка "продолжить"
+  healthBar.textContent = fixedHealthEnemy.textContent                                                                //значение количества жизни = базововому значению
+  healthBar.style.background = 'linear-gradient(to right, green 100%, red 10%)'                                         //возвращается полностью зеленая полоска здоровья противника
+  components.container.style.display = 'flex'                                               //гемы снова видны
+  buttonContinue.style.display = 'none'                            //прячу кнопку которую только что нажали
+  buttonReStart.style.display = 'inline'                           //появляется кнопка "обновить"
+ }
