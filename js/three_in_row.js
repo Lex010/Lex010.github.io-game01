@@ -491,7 +491,8 @@ let resultTwo = Math.ceil(healthEnemyAtNowTwo / onePercentHealthOfEnemyTwo)     
 let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'                                           // базовое значение со 100% заполненостью полоски жизни
 healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)             //внесение изменений в стиль исходя из текущих показателей
 };                                                                                                                       //<=
-if(healthBar.textContent < 0) {                                                                                        /************************************* */
+if(healthBar.textContent < 1) {                                                                                        /************************************* */
+    healthBar.textContent = '0'                                                                       // число жизни у противника не опускается меньше 0 
 	resourcesCount[2].textContent = Number(resourcesCount[2].textContent) + 1                                         //добавляет золото при уровне хп противника < 0 
 	bgGoldIcon[0].style.background = 'rgb(0, 197, 0)'                                                          //>=
     function gGrBg() {bgGoldIcon[0].style.background = 'linear-gradient(rgb(147, 226, 171), orange)'}         // ЗЕЛЕНЕЕТ фон золота
