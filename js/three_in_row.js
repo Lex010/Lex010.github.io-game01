@@ -453,7 +453,11 @@ if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_6.png"
 	ironPlus[0].addEventListener("animationend", greenNum, false);                                                           // <=
 function greenNum(){                                                                                                        //удаляет анимацию по ее завершению
     ironPlus[0].classList.remove('iron_plus_clik');                                                                          // <=
-}                                                                                                                             // <= анимация ЗЕЛЕНЫХ цифр прибавления ресурсов                  
+}                                                                                                                             // <= анимация ЗЕЛЕНЫХ цифр прибавления ресурсов  
+bgResIcon[1].style.backgroundColor = 'rgb(0, 197, 0)'                                                                                    //>=
+    function iGrBg() {bgResIcon[1].style.backgroundColor = 'bisque'}                                                            //ЗЕЛЕНЕЕТ фон железа
+    setTimeout(iGrBg,1000)                                                                                                      //>=
+               
 	resourcesCount[1].textContent = Number(resourcesCount[1].textContent) /**/ + 1 * countRemoveGem; /**/ };              //  добавляет железо  /**/+ 1 * countRemoveGem; /**/ 
 ////////////////////////////////////////////////////                                                /**/+ 1 * countRemoveGem; /**/ убраное количество гемов = добавленные ресурсы
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png") {                                //         дерево
@@ -463,6 +467,9 @@ if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_7.png"
 function greenNum(){  	
 	woodPlus[0].classList.remove('wood_plus_clik');                                                                          // <= зеленые цифры для дерева
 }                                                                                                                          
+bgResIcon[0].style.backgroundColor = 'rgb(0, 197, 0)'                                                                               //>=
+function wGrBg() {bgResIcon[0].style.backgroundColor = 'bisque'}                                                          // зеленеет фон дерева
+setTimeout(wGrBg,1000)                                                                                                   //>=
 	resourcesCount[0].textContent = Number(resourcesCount[0].textContent) /**/ + 1 * countRemoveGem; /**/                 //прибавка к дереву  
 };
 ///////////////////////////////////////////////////
@@ -485,7 +492,10 @@ let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'      
 healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)             //внесение изменений в стиль исходя из текущих показателей
 };                                                                                                                       //<=
 if(healthBar.textContent < 0) {                                                                                        /************************************* */
-	resourcesCount[2].textContent = Number(resourcesCount[2].textContent) + 1                                         //добавляет золото при уровне хп противника < 0  
+	resourcesCount[2].textContent = Number(resourcesCount[2].textContent) + 1                                         //добавляет золото при уровне хп противника < 0 
+	bgGoldIcon[0].style.background = 'rgb(0, 197, 0)'                                                          //>=
+    function gGrBg() {bgGoldIcon[0].style.background = 'linear-gradient(rgb(147, 226, 171), orange)'}         // ЗЕЛЕНЕЕТ фон золота
+    setTimeout(gGrBg,1000)                                                                                   //>=
                                                                       
 	goldPlus[0].classList.add('gold_plus_clik')                                                                   //<=
 	goldPlus[0].textContent = '+ 1'
