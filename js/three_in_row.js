@@ -88,7 +88,8 @@ function createContentPage () {
 										(config.offsetBorder * 2) + "px";
 	components.content.style.height = 	(config.gemSize * config.countRows) +
 										(config.offsetBorder * 2) + "px";
-	components.content.style.backgroundColor = config.contentColorBG;
+	components.content.style.background = 'url(bg_for_gems.jpg) no-repeat';                               //заменил фоновый цвет на картинку в виде шахматной доски
+	components.content.style.backgroundSize = '404px 404px';                                             //добавил строку для подгона размера фоновой картинки добавленной выше
 	components.content.style.boxShadow = config.offsetBorder + "px";
 	components.content.style.borderRadius = config.borderRadius + "px";
 	components.content.style.boxSizing = "border-box";
