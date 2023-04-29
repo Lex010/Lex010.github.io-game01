@@ -29,62 +29,64 @@ body {
   width: 300px;
   height: 10px;
   z-index: 1000;
-  background-color: black;
+  background-color: rgba(0, 128, 0, 0.466);
   /**/border-radius: 30px;
   animation: progress_ench forwards .5s;
 }
 @keyframes progress_ench {
   0% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
   }
   10%{
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 90%;
   }
   20% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 80%;
   }
   30% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 70%;
   }
   40% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 60%;
   }
   50% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 50%;
   }
   60% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 40%;
   }
   70% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 30%;
   }
   80% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 20%;
   }
   90% {
-    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, orange 12px, orange 25px);
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
     background-size: 10%;
   }
   100% {
-    background-color: gray;
+    background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
+    background-repeat: no-repeat;
+    background-size: 1%;
   }
   
 }
