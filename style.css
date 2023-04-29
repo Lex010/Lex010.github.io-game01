@@ -32,6 +32,7 @@ body {
   background-color: rgba(0, 128, 0, 0.466);
   /**/border-radius: 30px;
   animation: progress_ench forwards .5s;
+  border: #000 solid 2px;
 }
 #not_luck {                                      /* Надпись оповещающая о  не успешном улучшении*/
  /**/ display: none;
@@ -48,26 +49,27 @@ font-size: 40px;
   0% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
+    background-size: 1%;
   }
   10%{
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 10%;
   }
   20% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 20%;
   }
   30% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 30%;
   }
   40% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 40%;
   }
   50% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
@@ -77,27 +79,27 @@ font-size: 40px;
   60% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 60%;
   }
   70% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 70%;
   }
   80% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 80%;
   }
   90% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 90%;
   }
   100% {
     background-image: repeating-linear-gradient( -45deg,black 0,black 12px, gray 12px, gray 25px);
     background-repeat: no-repeat;
-    background-size: 1%;
+    background-size: 100%;
   }
   
 }
