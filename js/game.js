@@ -27,6 +27,8 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  //
  const healthBar = document.getElementById('health_bar') // Количество жизни противника
  const fixedHealthEnemy = document.getElementById('hundred_percent_helth')// фиксированое количество жихни противника для расчета процентов
+ //
+const progressEnchantBar = document.getElementById('progres_bar') // полоска показывающая процесс улучшения
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////
@@ -39,6 +41,13 @@ ench.onclick = function game() {
     let percent = (Math.random() * 100).toFixed(2)
     //
    if(resourcesCount[0].textContent > 0 && resourcesCount[1].textContent > 0) {
+    //
+    progressEnchantBar.style.display = 'flex'                                        //<=
+    progressEnchantBar.addEventListener("animationend", enchAnim, false);           //
+    function enchAnim() {                                                          //при нажатии кнопки улучшения появляется анимированая полоска
+        progressEnchantBar.style.display = 'none'                                 //
+    }                                                                            //<=
+    //
     woodMinus[0].classList.add('wood-1_clik');  ironMinus[0].classList.add('iron-1_clik');//при клике отображает анимацию минусования ресурсов
 ///////////////////////////////////////
 woodMinus[0].addEventListener("animationend", end02, false);

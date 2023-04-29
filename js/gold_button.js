@@ -6,6 +6,13 @@ goltButt.onclick = function () {
     let percent = (Math.random() * 100).toFixed(2)
     //
     if(resourcesCount[2].textContent > 0) {
+        //
+        progressEnchantBar.style.display = 'flex'                                        //<=
+        progressEnchantBar.addEventListener("animationend", enchAnim, false);           //
+        function enchAnim() {                                                          //при нажатии кнопки улучшения появляется анимированая полоска
+            progressEnchantBar.style.display = 'none'                                 //
+        }                                                                            //<=
+        //
 goldMinus[0].classList.add('gold-1_clik')//при клике отображает анимацию минусования ресурсов
 ///////////////////////////////////////
 goldMinus[0].addEventListener("animationend", end, false);
