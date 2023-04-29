@@ -28,7 +28,8 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const healthBar = document.getElementById('health_bar') // Количество жизни противника
  const fixedHealthEnemy = document.getElementById('hundred_percent_helth')// фиксированое количество жихни противника для расчета процентов
  //
-const progressEnchantBar = document.getElementById('progres_bar') // полоска показывающая процесс улучшения
+const progressEnchantBar = document.getElementById('progres_bar')                // полоска показывающая процесс улучшения меча
+const notLuckTxt = document.getElementById('not_luck')                          //текст оповещения о неудачном улучшении
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////
