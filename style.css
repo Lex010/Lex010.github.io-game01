@@ -32,7 +32,7 @@ body {
   background-color: rgba(0, 128, 0, 0.466);
   /**/border-radius: 30px;
   animation: progress_ench forwards .5s;
-  border: #000 solid 2px;
+  border: #000 solid 1px;
 }
 #not_luck {                                      /* Надпись оповещающая о  не успешном улучшении*/
  /**/ display: none;
