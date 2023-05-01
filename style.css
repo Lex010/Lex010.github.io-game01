@@ -615,3 +615,22 @@ display: inline;                             /*выравнивает цифры
   opacity: .6;
   border-radius: 10px;
 }
+/* ------  */
+.gem {                                    /*для создаваемых гемов с помощью JS*/
+  animation: gem_anim 1s infinite ;
+}
+@keyframes gem_anim {
+ 0% {
+  transform: scale(1);
+ }
+ 50% {
+  transform: scale(1.03);
+ }
+ 100% {
+  transform: scale(1);
+ }
+}
+.gem:hover {
+ opacity: 0.5;
+}
+/*   -----  */
