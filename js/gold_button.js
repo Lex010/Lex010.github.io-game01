@@ -1,8 +1,18 @@
 
+goltButt.onclick =  gameTimeOutGold;                                                                         //<=
+function gameTimeOutGold () {                                                                           // тут сделана задержка при нажатии на кнопку улучшения
+    gameGoldButton ();                                                                                       //
+    ench.disabled = true;                                                                         //
+    goltButt.disabled = true;                                                                    //
+    function disFall () {                                                                       //
+        goltButt.disabled = false;                                                             //
+        ench.disabled = false;                                                                //
+    };                                                                                       //
+    setTimeout(disFall,700);                                                               //
+};                                                                                         //<=
 
 
-
-goltButt.onclick = function () {
+function gameGoldButton () {
     let percent = (Math.random() * 100).toFixed(2)
     //
     if(resourcesCount[2].textContent > 0) {
