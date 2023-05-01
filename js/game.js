@@ -94,10 +94,18 @@ resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -148,6 +156,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -181,6 +197,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -216,6 +240,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -249,6 +281,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -284,6 +324,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -317,6 +365,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -352,6 +408,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -385,6 +449,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -420,6 +492,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -453,6 +533,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -488,6 +576,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -521,6 +617,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -556,6 +660,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -590,6 +702,14 @@ function luckItFlex () {                                                        
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
 
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
+
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
@@ -623,6 +743,14 @@ function luckItFlex () {                                                        
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
@@ -661,6 +789,14 @@ ench.style.opacity = '.5'
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+        function notLflex () {                                                             //                     
+            notLuckTxt.style.display = 'flex'                                             //
+            }                                                                            //
+            setTimeout(notLflex,500)                                                    //
+            function notL() {notLuckTxt.style.display = 'none'                         //
+            }                                                                         // Текст сообщающий о неудачном улучшении
+            setTimeout(notL,1500)                                                     //
 
          function dontLackSimple () {
         goltButt.style.display = 'none'     
