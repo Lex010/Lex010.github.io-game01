@@ -167,7 +167,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -209,7 +209,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -251,7 +251,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -293,7 +293,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -335,7 +335,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -377,7 +377,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -419,7 +419,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -461,7 +461,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -503,7 +503,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -545,7 +545,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -587,7 +587,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -629,7 +629,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -671,7 +671,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -713,7 +713,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -755,7 +755,7 @@ function luckItFlex () {                                                        
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
@@ -801,7 +801,7 @@ ench.style.opacity = '.5'
          function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
-        name.textContent = 'Все пропало'
+        name.textContent = 'Жми "Перековать"'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
         };
