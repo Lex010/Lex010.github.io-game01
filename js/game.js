@@ -47,7 +47,7 @@ function gameTimeOut () {                                                       
         goltButt.disabled = false;                                                             //
         ench.disabled = false;                                                                //
     };                                                                                       //
-    setTimeout(disFall,700);                                                               //
+    setTimeout(disFall,900);                                                                //
 };                                                                                         //<=
  function game () {
     let percent = (Math.random() * 100).toFixed(2)

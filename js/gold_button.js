@@ -8,7 +8,7 @@ function gameTimeOutGold () {                                                   
         goltButt.disabled = false;                                                             //
         ench.disabled = false;                                                                //
     };                                                                                       //
-    setTimeout(disFall, 700);                                                               //
+    setTimeout(disFall, 900);                                                               //
 };                                                                                         //<=
 
 
@@ -40,10 +40,13 @@ resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
     } else {
         resourcesCount[2].textContent = Number(resourcesCount[2].textContent) - 1;
        // alert('Не повезло. Но меч остался цел')
-       notLuckTxt.style.display = 'flex'                                           //
+       function notLflex () {                                                         //                     
+       notLuckTxt.style.display = 'flex'                                             //
+       }                                                                            //
+       setTimeout(notLflex,500)                                                    //
        function notL() {notLuckTxt.style.display = 'none'                         //
        }                                                                         // Текст сообщающий о неудачном улучшении
-       setTimeout(notL,500)                                                     //
+       setTimeout(notL,900)                                                     //
     }
     return
 }
