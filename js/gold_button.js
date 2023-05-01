@@ -8,7 +8,7 @@ function gameTimeOutGold () {                                                   
         goltButt.disabled = false;                                                             //
         ench.disabled = false;                                                                //
     };                                                                                       //
-    setTimeout(disFall,700);                                                               //
+    setTimeout(disFall, 700);                                                               //
 };                                                                                         //<=
 
 
