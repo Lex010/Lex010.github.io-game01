@@ -38,7 +38,18 @@ const notLuckTxt = document.getElementById('not_luck')                          
                                                                      
 
 
-ench.onclick = function game() {
+ench.onclick =  gameTimeOut;                                                                         //<=
+function gameTimeOut () {                                                                           // тут сделана задержка при нажатии на кнопку улучшения
+     game();                                                                                       //
+    ench.disabled = true;                                                                         //
+    goltButt.disabled = true;                                                                    //
+    function disFall () {                                                                       //
+        goltButt.disabled = false;                                                             //
+        ench.disabled = false;                                                                //
+    };                                                                                       //
+    setTimeout(disFall,700);                                                               //
+};                                                                                         //<=
+ function game () {
     let percent = (Math.random() * 100).toFixed(2)
     //
    if(resourcesCount[0].textContent > 0 && resourcesCount[1].textContent > 0) {
