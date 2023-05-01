@@ -371,7 +371,7 @@ font-size: 40px;
 }
 
 #restart {                        /*не видимая кнопка рестарта*/
-  display: none;
+  display: none;/**/
 
  position: absolute;
   margin-top: 200px;
@@ -391,7 +391,7 @@ font-size: 40px;
   /*background-color: rgba(0, 255, 0, 0);       ниже этой строки добавлена анимация букв слова "перековать" */
   text-shadow: #000000 32px 32px 12px;
  
-  background: linear-gradient(to right, black, rgb(196, 196, 0) 40%, rgb(196, 196, 1) 60%, black 80%);
+  background: linear-gradient(to right, black, rgba(196, 193, 0, 0.199) 40%, rgba(196, 1, 1, 0.199) 60%, black 80%);
   background-size: 200% auto;
   
   color: #000;
