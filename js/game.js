@@ -30,6 +30,7 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  //
 const progressEnchantBar = document.getElementById('progres_bar')                // полоска показывающая процесс улучшения меча
 const notLuckTxt = document.getElementById('not_luck')                          //текст оповещения о неудачном улучшении
+const itsLuckTxt = document.getElementById('its_luck')                            //текст оповещения об УСПЕШНОМ улучшении
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////
@@ -79,6 +80,16 @@ img.style.backgroundImage = "url('sword/sw1.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+  function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -123,6 +134,16 @@ img.style.backgroundImage = "url('sword/sw2.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -147,6 +168,16 @@ img.style.backgroundImage = "url('sword/sw3.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -171,6 +202,16 @@ img.style.backgroundImage = "url('sword/sw4.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -195,6 +236,16 @@ img.style.backgroundImage = "url('sword/sw5.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -219,6 +270,16 @@ img.style.backgroundImage = "url('sword/sw6.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -243,6 +304,16 @@ img.style.backgroundImage = "url('sword/sw7.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -267,6 +338,16 @@ img.style.backgroundImage = "url('sword/sw8.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -291,6 +372,16 @@ img.style.backgroundImage = "url('sword/sw9.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -315,6 +406,16 @@ img.style.backgroundImage = "url('sword/sw10.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -339,6 +440,16 @@ img.style.backgroundImage = "url('sword/sw11.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -363,6 +474,16 @@ img.style.backgroundImage = "url('sword/sw12.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -387,6 +508,16 @@ img.style.backgroundImage = "url('sword/sw13.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -411,6 +542,16 @@ img.style.backgroundImage = "url('sword/sw14.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -435,6 +576,16 @@ img.style.backgroundImage = "url('sword/sw15.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -459,6 +610,16 @@ img.style.backgroundImage = "url('sword/sw16.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
     } else {
         resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
         resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
@@ -483,6 +644,16 @@ img.style.backgroundImage = "url('sword/sw17.png')"
 
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+//
+function luckItFlex () {                                                               //<=
+    itsLuckTxt.style.display = 'flex'                                                   //
+  };                                                                                   //
+  setTimeout(luckItFlex,500)                                                          //
+  function itL() {itsLuckTxt.style.display = 'none'                                  //
+  }                                                                                 // Текст сообщающий о УДАЧНОМ улучшении
+  setTimeout(itL,900)                                                              //<=
+//
+
 
 txBtn[0].textContent = 'МАКС.'
 goltButt.style.opacity = '.5'
