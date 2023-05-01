@@ -80,14 +80,18 @@ img.style.backgroundImage = "url('sword/sw1.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
-        
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 } 
@@ -120,14 +124,18 @@ img.style.backgroundImage = "url('sword/sw2.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'  
-        
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 } 
@@ -140,14 +148,18 @@ img.style.backgroundImage = "url('sword/sw3.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -160,14 +172,18 @@ img.style.backgroundImage = "url('sword/sw4.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }  
@@ -180,14 +196,18 @@ img.style.backgroundImage = "url('sword/sw5.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 } 
@@ -200,14 +220,18 @@ img.style.backgroundImage = "url('sword/sw6.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }   
@@ -220,14 +244,18 @@ img.style.backgroundImage = "url('sword/sw7.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -240,14 +268,18 @@ img.style.backgroundImage = "url('sword/sw8.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }   
@@ -260,14 +292,18 @@ img.style.backgroundImage = "url('sword/sw9.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -280,14 +316,18 @@ img.style.backgroundImage = "url('sword/sw10.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -300,14 +340,18 @@ img.style.backgroundImage = "url('sword/sw11.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
-        
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -320,14 +364,18 @@ img.style.backgroundImage = "url('sword/sw12.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -340,14 +388,18 @@ img.style.backgroundImage = "url('sword/sw13.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -360,14 +412,18 @@ img.style.backgroundImage = "url('sword/sw14.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'  
-        
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -380,14 +436,18 @@ img.style.backgroundImage = "url('sword/sw15.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -400,14 +460,18 @@ img.style.backgroundImage = "url('sword/sw16.png')"
 resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
 resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
-        restart.style.display = 'flex'   
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        restart.style.display = 'flex' 
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
@@ -424,14 +488,18 @@ txBtn[0].textContent = 'МАКС.'
 goltButt.style.opacity = '.5'
 ench.style.opacity = '.5'
     } else {
+        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
+        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+
+         function dontLackSimple () {
         goltButt.style.display = 'none'     
         ench.style.display = 'none'   
         name.textContent = 'Все пропало'
         img.style.backgroundImage = "url('sword/sw_broken.png')"   
         restart.style.display = 'flex' 
-
-        resourcesCount[0].textContent = Number(resourcesCount[0].textContent) - 1;
-        resourcesCount[1].textContent = Number(resourcesCount[1].textContent) - 1;
+        };
+        setTimeout(dontLackSimple, 600);
+    
     }
     return
 }
