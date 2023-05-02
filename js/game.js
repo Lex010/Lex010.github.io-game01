@@ -36,6 +36,8 @@ const progressEnchantBar = document.getElementById('progres_bar')               
 const notLuckTxt = document.getElementById('not_luck')                          //текст оповещения о неудачном улучшении
 const itsLuckTxt = document.getElementById('its_luck')                            //текст оповещения об УСПЕШНОМ улучшении
 //
+const rightChosenEnButt = document.getElementById('right_c_e_b')               //правая кнопка пролистывания противников
+const leftChosenEnButt = document.getElementById('left_c_e_b')                // левая кнопка пролистывания противников
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////

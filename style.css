@@ -539,6 +539,11 @@ cursor: pointer;
   border-end-end-radius: 0;
   border-bottom: none; 
 
+  text-shadow: 1px 0 1px #000, /*контур цифры ресурсов*/
+  0 1px 1px #000, 
+  -1px 0 1px #000, 
+  0 -1px 1px #000;
+
   background: radial-gradient(#6b6b6b,black );
 
   color: bisque;
