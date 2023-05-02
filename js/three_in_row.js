@@ -45,8 +45,9 @@ let components = {
 
 // start Game                                                                        //Мои изменения: добавляю кнопку старт
                                                                                     //-------------------------------------------------------
-buttonStart.onclick = function() {                                                    //
-	buttonStart.style.display = 'none'                                                 //
+buttonStart.onclick = function() {                                                 //
+	if(enemyName[0].textContent === 'Вепрь' || enemyName[0].textContent === 'Леший' || enemyName[0].textContent === 'Горыныч Змей' ) {  //запускает игру если выбран противник
+	buttonStart.style.display = 'none'                                            //
 	buttonReStart.style.display = 'flex'
 
 	enemyImgBack[0].style.opacity = '0';
@@ -56,6 +57,7 @@ buttonStart.onclick = function() {                                              
 	healthBar.style.opacity = '1';
 
 initGame();
+}
 }
 // Инициализация всех составляющих игры
 function initGame () {
