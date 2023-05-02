@@ -496,6 +496,34 @@ position: absolute;
   display: flex;
   justify-content: center;
 }
+
+#right_c_e_b {
+  position: absolute;
+  width: 45px;
+  height: 50px;
+
+  margin-left: 260px;
+  margin-top: 150px;
+
+background: url(enemy_img/strelka_right.png) no-repeat;
+background-size: 45px 50px;
+border: none;
+cursor: pointer;
+}
+#left_c_e_b {
+  position: absolute;
+  width: 45px;
+  height: 50px;
+
+  margin-right: 260px;
+  margin-top: 150px;
+
+background: url(enemy_img/strelka_left.png) no-repeat;
+background-size: 45px 50px;
+border: none;
+cursor: pointer;
+}
+/**/
 .enemy_img_back {
   position: absolute;
   margin-left: 50px;
