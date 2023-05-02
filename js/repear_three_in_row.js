@@ -1,3 +1,27 @@
+function gemFadeForQuick() {
+   $( ".remove" ).each(function() {
+      config.movingItems++;
+
+      $(this).animate( {
+            opacity: 0
+         },
+         {
+            duration: 1,                   ////duration: 200 заменил на 1, при удаление через кнопку "обновление" был баг(200 давало не омментальное изчезновение удаляемого)
+            complete: function() {
+               $(this).remove();
+               checkMoving();
+            }
+         }
+      );
+   });
+}
+
+
+
+
+
+
+
 buttonReStart.onclick = function refresh () {
    //document.querySelector( "#" + config.gemIdPrefix + "_" + "0" + "_" + "5" ).classList.add( "remove" );  удаляет указаный гем после сложения 3х гемов
 
@@ -45,8 +69,10 @@ buttonReStart.onclick = function refresh () {
    document.querySelector("#" + config.gemIdPrefix + "_5_3").classList.add( "remove" );
    document.querySelector("#" + config.gemIdPrefix + "_5_4").classList.add( "remove" );
    document.querySelector("#" + config.gemIdPrefix + "_5_5").classList.add( "remove" );
-   gemFade()     //удаляет выбраные гемы
+   //gemFade()     //удаляет выбраные гемы
    //initGame();  //перезапускает поле
+   gemFadeForQuick()
+
 
 
    createContentPage();                             //<=
