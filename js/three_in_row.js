@@ -56,6 +56,9 @@ buttonStart.onclick = function() {                                              
 	enemyImg[0].style.opacity = '1';
 	healthBar.style.opacity = '1';
 
+	rightChosenEnButt.style.opacity = 0;
+	leftChosenEnButt.style.opacity = 0;
+
 initGame();
 }
 }
