@@ -49,6 +49,12 @@ buttonStart.onclick = function() {                                              
 	buttonStart.style.display = 'none'                                                 //
 	buttonReStart.style.display = 'flex'
 
+	enemyImgBack[0].style.opacity = '0';
+	healthBarBeforStart.style.opacity = '0';
+
+	enemyImg[0].style.opacity = '1';
+	healthBar.style.opacity = '1';
+
 initGame();
 }
 // Инициализация всех составляющих игры

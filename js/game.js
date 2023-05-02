@@ -25,12 +25,17 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const buttonReStart = document.getElementById('button_restart')   //Кнопка рестарта
  const buttonContinue = document.getElementById('button_continue') /* КНОПКА ПРОДОЛЖИТЬ*/
  //
+ const healthBarBeforStart = document.getElementById('health_bar_befor_start')//полоска хдоровья противника перед стартом
  const healthBar = document.getElementById('health_bar') // Количество жизни противника
  const fixedHealthEnemy = document.getElementById('hundred_percent_helth')// фиксированое количество жихни противника для расчета процентов
+
+ const enemyImgBack = document.getElementsByClassName('enemy_img_back') //это клас(вибирается [0]) отсутствующее изображение противника до старта
+ const enemyImg = document.getElementsByClassName('enemy_img') //это клас(вибирается [0]) Изображение противника
  //
 const progressEnchantBar = document.getElementById('progres_bar')                // полоска показывающая процесс улучшения меча
 const notLuckTxt = document.getElementById('not_luck')                          //текст оповещения о неудачном улучшении
 const itsLuckTxt = document.getElementById('its_luck')                            //текст оповещения об УСПЕШНОМ улучшении
+//
                              /////////!!!!!!!!!!!//////////
                              //////////////////////////////////
 ///////////////////            ВСЕ ПЕРЕМЕННЫЕ ХРАНЯТСЯ ТУТ....  /////////////////////////////////////
