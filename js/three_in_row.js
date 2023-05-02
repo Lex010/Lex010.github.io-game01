@@ -56,8 +56,8 @@ buttonStart.onclick = function() {                                              
 	enemyImg[0].style.opacity = '1';
 	healthBar.style.opacity = '1';
 
-	rightChosenEnButt.style.opacity = 0;
-	leftChosenEnButt.style.opacity = 0;
+	rightChosenEnButt.style.opacity = 0;                              //скрываются кнопки выбора противника
+	leftChosenEnButt.style.opacity = 0;                              //
 
 initGame();
 }
@@ -503,6 +503,16 @@ let stringColorStyleTwo = 'linear-gradient(to right, green 100%, red 10%)'      
 healthBar.style.background = stringColorStyleTwo.slice(0, 32) + resultTwo + stringColorStyleTwo.slice(35)             //внесение изменений в стиль исходя из текущих показателей
 };                                                                                                                       //<=
 if(healthBar.textContent < 1) {                                                                                        /************************************* */
+    enemyImg[0].style.opacity = '0'                                         // при жизни противника 0< возвращает стартовую надпись вместо изображения противника
+	enemyImgSecond[0].style.opacity = '0'                                  //  
+	enemyImgThree[0].style.opacity = '0'                                  // и имя противника меняетс на надпись "противник"
+	enemyName[0].textContent = 'Противник'                               //    
+	enemyImgBack[0].style.opacity = '1' 					            //<=									   
+    
+
+    rightChosenEnButt.style.opacity = 1                                //<= после победы над противником появляются кнопки выбора между противниками
+	leftChosenEnButt.style.opacity = 1                                //<=
+
     healthBar.textContent = '0'                                                                       // число жизни у противника не опускается меньше 0 
 	resourcesCount[2].textContent = Number(resourcesCount[2].textContent) + 1                                         //добавляет золото при уровне хп противника < 0 
 	bgGoldIcon[0].style.background = 'rgb(0, 197, 0)'                                                          //>=

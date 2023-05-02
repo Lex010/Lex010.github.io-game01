@@ -83,9 +83,14 @@ buttonReStart.onclick = function refresh () {
 
 
  buttonContinue.onclick = function() {    //ТРЕТЬЯ скрытая кнопка "продолжить"
+   if(enemyName[0].textContent === 'Вепрь' || enemyName[0].textContent === 'Леший' || enemyName[0].textContent === 'Горыныч Змей') {
   healthBar.textContent = fixedHealthEnemy.textContent                                                                //значение количества жизни = базововому значению
   healthBar.style.background = 'linear-gradient(to right, green 100%, red 10%)'                                         //возвращается полностью зеленая полоска здоровья противника
   components.container.style.display = 'flex'                                               //гемы снова видны
   buttonContinue.style.display = 'none'                            //прячу кнопку которую только что нажали
   buttonReStart.style.display = 'inline'                           //появляется кнопка "обновить"
+
+  rightChosenEnButt.style.opacity = 0;                           //скрываются кнопки выбора противника
+	leftChosenEnButt.style.opacity = 0;                          //
+   }
  }

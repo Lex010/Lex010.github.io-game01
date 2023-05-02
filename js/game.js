@@ -29,6 +29,7 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const healthBar = document.getElementById('health_bar') // Количество жизни противника
  const fixedHealthEnemy = document.getElementById('hundred_percent_helth')// фиксированое количество жихни противника для расчета процентов
 
+ const enemy = document.getElementsByClassName('enemy')            // блок с изображением и именем и прочим относящимся к отображению противника
  const enemyImgBack = document.getElementsByClassName('enemy_img_back') //это клас(вибирается [0]) отсутствующее изображение противника до старта
  const enemyImg = document.getElementsByClassName('enemy_img') //это клас(вибирается [0]) Изображение противника ПЕРВОГО
  const enemyImgSecond = document.getElementsByClassName('enemy_img_second') //это клас(вибирается [0]) Изображение противника ВТОРОГО
