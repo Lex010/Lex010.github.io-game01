@@ -300,16 +300,41 @@ font-size: 40px;
   width: 150px;
   height: 120px;
 
+  transition-duration: 0.15s ; /*add*/
+  transform-style: preserve-3d;
+}
+#ench::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /**/border: black solid 1px;
+  border-radius: 10% 40% 30% 10%;
+  background:rgb(9, 0, 58) ;
+  box-shadow: 0 0 0 2px #333, 0 0.625em 0 0 #ffe3e2;
+  transform: translate3d(0, 0.75em, -1em);
+ transition: transform 0.15s, box-shadow 0.15s;
 }
 #ench:hover {
   background: linear-gradient(rgb(22, 1, 139), #333);
-  border-radius: 20% 40% 30% 20%;
-  
+  transform: translate(0, 0.25em);
+}
+#ench:hover::before {
+  box-shadow: 0 0 0 2px gray, 0 0.5em 0 0 #ffe3e2;
+  transform: translate3d(0, 0.5em, -1em);
 }
 #ench:active {
   background: linear-gradient(rgb(22, 1, 139), green);
   box-shadow: 3px 3px rgb(22, 1, 139), -.5em 0 .8em rgb(100, 136, 100);
-  border-radius: 40% 40% 30% 10%;
+  transform: translate(0em, 0.75em); 
+}
+#ench:active::before {
+  box-shadow: 0 0 0 2px black, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
 }
 
 #ench_red {
