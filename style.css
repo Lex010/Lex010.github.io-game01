@@ -313,7 +313,8 @@ font-size: 40px;
   right: 0;
   bottom: 0;
   /**/border: black solid 1px;
-  border-radius: 10% 40% 30% 10%;
+
+  border-radius: 10% 40% 30% 10%;/**/
   background:rgb(9, 0, 58) ;
   box-shadow: 0 0 0 2px #333, 0 0.625em 0 0 #ffe3e2;
   transform: translate3d(0, 0.75em, -1em);
@@ -336,7 +337,7 @@ font-size: 40px;
   box-shadow: 0 0 0 2px black, 0 0 #ffe3e2;
   transform: translate3d(0, 0, -1em);
 }
-
+/**/
 #ench_red {
   cursor: pointer;                /*улучшение золотом*/
   position: absolute;           /*выравнивание кнопки по левому краю  */
@@ -472,6 +473,10 @@ margin-top: 50px;
 .sect2_h2 {
   text-align: center;
   margin-top: 0;
+  /**/height: 29px;  /* фиксирую высоту строчки для шрифта*/
+  line-height: 20px;/**/
+
+  font-family: "CyrillicOldBold";
 }
 .sect2{
   margin-top: 755px;        /*костыль для отображения страницы с мечем*/
