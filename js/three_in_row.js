@@ -122,7 +122,7 @@ function createCursor () {
 	components.cursor.id = "marker";
 	components.cursor.style.width = config.gemSize - 10 + "px";
 	components.cursor.style.height = config.gemSize - 10 + "px";
-	components.cursor.style.border = "5px solid white";
+	components.cursor.style.border = "5px inset white";
 	components.cursor.style.borderRadius = "20px";
 	components.cursor.style.position = "absolute";
 	components.cursor.style.display = "none";
