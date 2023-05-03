@@ -566,6 +566,12 @@ background-size: 45px 50px;
 border: none;
 cursor: pointer;
 }
+#right_c_e_b:hover {
+  transform: translateX(3px);
+}
+#right_c_e_b:active {
+  transform: translateX(7px);
+}
 #left_c_e_b {
   position: absolute;
   width: 45px;
@@ -578,6 +584,12 @@ background: url(enemy_img/strelka_left.png) no-repeat;
 background-size: 45px 50px;
 border: none;
 cursor: pointer;
+}
+#left_c_e_b:hover {
+  transform: translateX(-3px);
+}
+#left_c_e_b:active {
+  transform: translateX(-7px);
 }
 /**/
 .enemy_img_back {
