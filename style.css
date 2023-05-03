@@ -354,16 +354,47 @@ font-size: 40px;
 
   width: 100px;
   height: 90px;
+
+  transition-duration: 0.15s ; /*add*/
+  transform-style: preserve-3d;
+}
+#ench_red::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 40%;
+  border: #444 solid 3px;
+  background:black;
+  /*box-shadow: 0 0 0 2px #333, 0 0.625em 0 0 #ffe3e2;*/
+
+  transform: translate3d(0, 0.3em, -1em);
+ transition: transform 0.15s, box-shadow 0.15s;
 }
 #ench_red:hover {
   background: linear-gradient(rgb(46, 46, 46), rgb(165, 165, 165));
+  transform: translate(0, 0.25em);
+}
+#ench_red:hover::before {
+  /*box-shadow: 0 0 0 2px gray, 0 0.5em 0 0 #ffe3e2;*/
+  transform: translate3d(0, 0.2em, -1em);
 }
 #ench_red:active {
   background: linear-gradient(rgb(102, 102, 102), rgb(224, 224, 224));
   border-radius: 35%;
 
-
+  transform: translate(0em, 0.75em); 
 }
+#ench_red:active::before {
+  box-shadow: 0 0 0 2px black, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
+}
+/**************************/
 .ench_red_tx {
   font-weight: bold;
   color: bisque;
