@@ -123,6 +123,7 @@ function createCursor () {
 	components.cursor.style.width = config.gemSize - 10 + "px";
 	components.cursor.style.height = config.gemSize - 10 + "px";
 	components.cursor.style.border = "5px inset white";
+	components.cursor.style.animation = 'gem_anim_select 0.7s infinite'
 	components.cursor.style.borderRadius = "20px";
 	components.cursor.style.position = "absolute";
 	components.cursor.style.display = "none";
