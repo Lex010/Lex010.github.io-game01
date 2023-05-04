@@ -35,6 +35,8 @@ const bgGoldIcon = document.getElementsByClassName('for_sr_im_gold')         //�
  const enemyImg = document.getElementsByClassName('enemy_img') //это клас(вибирается [0]) Изображение противника ПЕРВОГО
  const enemyImgSecond = document.getElementsByClassName('enemy_img_second') //это клас(вибирается [0]) Изображение противника ВТОРОГО
  const enemyImgThree = document.getElementsByClassName('enemy_img_third')  //это клас(вибирается [0]) Изображение противника ТРЕТЬЕГО
+ const soloStr = document.getElementById('solo_str')                      //порезы от одного удара
+ const doubleStr = document.getElementById('double_str')                 //порезы от двойного удара
  //
 const progressEnchantBar = document.getElementById('progres_bar')                // полоска показывающая процесс улучшения меча
 const notLuckTxt = document.getElementById('not_luck')                          //текст оповещения о неудачном улучшении

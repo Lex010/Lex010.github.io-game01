@@ -144,7 +144,7 @@ font-size: 40px;
   flex: 1 1 0;
   position: fixed; 
   top: 0;
-  z-index: 1000;
+  z-index: 1001;
   border-bottom: #333 1px solid;
 }
  .iron, .gold, .wood {
@@ -646,6 +646,34 @@ cursor: pointer;
   font-size: 25px; 
   top: 10%;
 position: absolute;
+}
+#solo_str {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  width: 150px;
+  height: 250px;
+  background: url(enemy_img/solo_strike.png) no-repeat;
+  background-size: 150px 250px;
+  object-fit: cover;
+
+  position: absolute;
+  z-index: 1000; 
+  opacity: 0;
+}
+#double_str {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  width: 200px;
+  height: 300px;
+  background: url(enemy_img/doble_strike.png) no-repeat;
+  background-size: 200px 300px;
+  object-fit: cover;
+
+  position: absolute;
+  z-index: 1000; 
+  opacity: 0;
 }
 .enemy_img {
 

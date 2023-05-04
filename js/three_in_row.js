@@ -487,6 +487,12 @@ setTimeout(wGrBg,1000)                                                          
 ///////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_2.png") {                                    // сбор ОДИНОЧНЫХ МЕЧ
 	//
+	soloStr.style.opacity = 1                                                                                          //<=
+	function soloOpacity() {                                                                                          //  появление пореза при сборе мечей
+		soloStr.style.opacity = 0                                                                                    //
+	};                                                                                                              //
+	setTimeout(soloOpacity , 300)                                                                                  //<=
+	
 	allEnemyImg.style.animation = 'hit_by_enemy 0.1s'                                                                 //<=
 	allEnemyImg.addEventListener("animationend",enemyHit, false);                                                    //движение изображения противника при сборе мечей
  function enemyHit () {	                                                                                            //
@@ -504,6 +510,13 @@ healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColo
 //////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
 		//
+		doubleStr.style.opacity = 1                                                                                          //<=
+		function doubleOpacity() {                                                                                          //  появление пореза при сборе мечей
+			doubleStr.style.opacity = 0                                                                                    //
+		};                                                                                                                //
+		setTimeout(doubleOpacity , 300)                                                                                  //<=
+
+
 		allEnemyImg.style.animation = 'hit_by_enemy 0.1s'                                                                 //<=
 		allEnemyImg.addEventListener("animationend",enemyHit, false);                                                    //движение изображения противника при сборе мечей
 	 function enemyHit () {	                                                                                            //
