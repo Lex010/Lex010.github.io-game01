@@ -486,6 +486,13 @@ setTimeout(wGrBg,1000)                                                          
 };
 ///////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_2.png") {                                    // сбор ОДИНОЧНЫХ МЕЧ
+	//
+	allEnemyImg.style.animation = 'hit_by_enemy 0.1s'                                                                 //<=
+	allEnemyImg.addEventListener("animationend",enemyHit, false);                                                    //движение изображения противника при сборе мечей
+ function enemyHit () {	                                                                                            //
+	allEnemyImg.style.animation = ''                                                                               //
+};                                                                                                                //<=
+//
 	let healthEnemyAtNow = healthBar.textContent = (healthBar.textContent - countRemoveGem) - (countRemoveGem  * name.textContent.replace(/[^\d]/g, '')) // ФОРМУЛА УРОНА
 //<=                                      //  <<("Количество здоровья" - "количество убраных гемов") - ("количество убраных гемов" * "значение улучшености меча") >>
 const onePercentHealthOfEnemy = fixedHealthEnemy.textContent / 100                                                  //  выисчитываем 1% от фиксированого показателя жизни противника
@@ -496,6 +503,13 @@ healthBar.style.background = stringColorStyle.slice(0, 32) + result + stringColo
 //<=
 //////////////////////////////////////////////////
 if(config.imagesCoin[ components.gems[row][col] ] === "resorces_im/tempor_4.png") {                                    // сбор СДВОЕНЫХ МЕЧ
+		//
+		allEnemyImg.style.animation = 'hit_by_enemy 0.1s'                                                                 //<=
+		allEnemyImg.addEventListener("animationend",enemyHit, false);                                                    //движение изображения противника при сборе мечей
+	 function enemyHit () {	                                                                                            //
+		allEnemyImg.style.animation = ''                                                                               //
+	};                                                                                                                //<=
+//
 	let healthEnemyAtNowTwo = healthBar.textContent = (healthBar.textContent - countRemoveGem * 2) - (countRemoveGem  * name.textContent.replace(/[^\d]/g, '') * 2)
 	//<=                                                                                                               //<= 
 const onePercentHealthOfEnemyTwo = fixedHealthEnemy.textContent / 100                                              //  выисчитываем 1% от фиксированого показателя жизни противника 

@@ -557,6 +557,22 @@ position: absolute;
   display: flex;
   justify-content: center;
 }
+#all_enemy_img {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes hit_by_enemy {          /* движение карточки противника при попадании по нему*/
+  0% {
+    transform: translateX(3px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-3px);
+  }
+}
 
 #right_c_e_b {
   position: absolute;
